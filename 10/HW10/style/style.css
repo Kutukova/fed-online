@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300;700&family=IBM+Plex+Sans:wght@400;600&display=swap');
+
+body{
+  box-sizing: border-box;
+  background-color: #EAEDF2;
+}
+.container{
+  margin: 0 auto;
+  width: 1920px;
+  padding-top: 142px;
+  padding-bottom: 128px;
+  padding-left: 350px;
+}
+h1{
+  color: #2D3640;
+  font-family: IBM Plex Sans;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 80px;
+  letter-spacing: -0.5px;
+  text-align: left;
+}
+strong{
+  font-weight: 600;
+}
+.title{
+  font-family: IBM Plex Sans;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+  letter-spacing: 0px;
+  color: #2B292D;
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.item{
+  width: 295px;
+  height: 470px;
+  padding-top: 56px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(234, 237, 242);
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 0px rgba(45, 54, 64, 0.05);
+  float: left;
+  margin-right: 20px;
+}
+.item:last-child {
+  margin-right: 0;
+}
+.item-container{
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  margin: 0 auto;
+  margin-bottom: 34px;
+  border: 2px solid rgb(239, 243, 248);
+  overflow: hidden;
+}
+.item-img{
+  height: inherit;
+  width: 100%;
+}
+.item-text{
+  margin-bottom: 30px;
+  font-family: "Catamaran", sans-serif;
+  text-align: center;
+}
+h4{
+  color: #2D3640;
+  text-align: center;
+  font-family: Catamaran;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.625px;
+  margin-top: 36px;
+  text-align: center;
+}
+p{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #4B4F52;
+  text-align: center;
+}
+.tech-image-container{
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  border-radius: 100%;
+  display: inline-block;
+  margin-right: 14px;
+  justify-content: center;
+    align-items: center;
+}
+.tech-image-container:last-child {
+  margin-right: 0;
+}
+.tech-images{
+  margin-top: 33px;
+  text-align: center;
+}
+.skill-Vue{
+  background: #41B883;
+  width: 100%;
+  height: 100%;
+}
+.skill-Angular{
+  background-color: #34474F;
+  width: 100%;
+  height: 100%;
+}
+.skill-Flutter{
+  background-color: #202124;
+  width: 100%;
+  height: 100%;
+}
+.skill-ReactJS{
+  background: #61DAFB;
+  width: 100%;
+  height: 100%;
+}
+.skill-Java{
+  background-color: #D63033;
+  width: 100%;
+  height: 100%;
+}
+.skill-ReactNative{
+  background-color: #0AA9D7;
+  width: 100%;
+  height: auto;
+}
+.skill-Html{
+  background-color: #E44E25;
+  width: 100%;
+  height: 100%;
+}
+.skill-Css{
+  background-color: #1073BB;
+  width: 100%;
+  height: 100%;
+}
