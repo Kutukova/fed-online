@@ -6,6 +6,7 @@ body{
 }
 .container{
   margin: 0 auto;
+  width: 1500px;
   height: 1500px;
   padding: 20px;
 background: rgb(229, 229, 229);
