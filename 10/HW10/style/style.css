@@ -7,8 +7,9 @@ body{
   background-color: #EAEDF2;
 }
 .container{
-  width: 1240px;
-  margin: 0px;
+  width: 1243px;
+  margin: 0 auto;
+  padding: 142px 0 128px;
   /* padding-top: 142px;
   padding-bottom: 128px;
   padding-left: 350px; */
