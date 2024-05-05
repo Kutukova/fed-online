@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,700;6..12,800&family=Roboto:wght@400;900&display=swap');
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Nunito Sans', sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  background-color: white;
+  padding-bottom: 45px;
+  position: relative;
+}
+body::after{
+  content: "";
+  display: block;
+  width: 118px;
+  background-color: #F9F9F9;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 16%;
+  z-index: -1;
+}
+.container{
+  margin: 0 auto;
+  width: 82%;
+}
+
+/* Header */
+
+header{
+padding: 55px 0;
+}
+header .container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav a{
+  margin-right: 35px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 1px;
+  position: relative;
+  display: inline-block;
+}
+nav a:last-child{
+  margin-right: 0;
+}
+nav a::after{
+content: "";
+display: none;
+background: rgb(242, 153, 74);
+width: 7px;
+height: 7px;
+border-radius: 100%;
+position: absolute;
+margin: 0 50%;
+bottom: -16px;
+}
+nav a.active-block::after{
+  display: block;
+}
+nav a:hover::after{
+  display: block;
+}
+.search-item input{
+color: rgb(0, 0, 0);
+font-size: 19px;
+font-weight: 400;
+line-height: 120%;
+letter-spacing: 1px;
+border: none;
+padding: 0 16px;
+}
+.search-item button{
+border: none;
+background-color: white;
+}
+
+/* Content */
+
+.content{
+  padding: 110px 0 50px;
+}
+.content .container{
+  display: flex;
+  justify-content: space-between;
+}
+.image-content{
+  width: 35%;
+}
+.image-content img{
+  width: 100%;
+}
+.text-content{
+  width: 50%;
+}
+.text{
+  margin-bottom: 32px;
+  padding-right: 134px;
+  border-right: 1px solid #333333;
+}
+.text h2{
+  color: rgb(242, 153, 74);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 1px;
+  position: relative;
+  margin-bottom: 10px;
+  }
+  .text h2::after{
+    content: "+";
+    position: absolute;
+    color: #3F9AB7;
+    right: 0;
+  }
+  .text h1{
+    color: rgb(0, 0, 0);
+    font-size: 65px;
+    font-weight: 800;
+    line-height: 120%;
+    letter-spacing: 1px;
+    margin-bottom: 70px;
+    }
+  .text p{
+color: rgb(79, 79, 79);
+font-family: 'Roboto' sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 180%;
+letter-spacing: 1px;
+position: relative;
+  }
+  .text p::before{
+    content: "";
+    display: block;
+    border-radius: 4px; 
+    background: rgb(242, 153, 74);
+    width: 188px;
+    height: 6px;
+    position: absolute;
+    top: -24px;
+  }
+
+  /* Socal links */
+
+  .link-conent{
+    display: flex;
+    justify-content: space-between;
+  }
+  .video{
+    display: flex;
+    align-items: center;
+  }
+  .video button{
+width: 85px;
+height: 85px;
+background-color: #3F9AB7;
+border-radius: 100%;
+border: none;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-right: 21px;
+}
+.video p{
+  color: rgb(0, 0, 0);
+font-size: 18px;
+font-weight: 700;
+line-height: 120%;
+letter-spacing: 1px;
+}
+.video button:hover{
+  background: rgb(242, 153, 74);
+}
+.video p{
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 1px;
+}
+.social-media a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 34px;
+  height: 34px;
+  text-decoration: none;
+  background-color: transparent;
+  border-radius: 100%;
+  position: relative;
+  text-align: center;
+  right: -15px;
+  margin-bottom: 8px;
+}
+.social-media_image-hover{
+  display: none;
+}
+.social-media a:hover {
+  background-color: #f2994a;
+}
+
+.social-media a:hover .social-media_image{
+  display: block;
+}
+
+.social-media a:hover .social-media_image-hover{
+  display: none;
+}
+
+/* Clients */
+
+.clients{
+  padding: 32px 0;
+  background-color: #3f9ab7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.client-image{
+  width: 55px;
+  height: 55px;
+  border-radius: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.client-image:nth-child(2){
+  left: -10px;
+}
+
+.client-image:nth-child(3){
+  left: -20px;
+}
+.client-image img {
+  width: 100%;
+}
+
+.client-info{
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 0px;
+  letter-spacing: 0px;
+  color: white;
+}
+
+.client-info strong{
+  font-weight: 700;
+  font-size: 24px;
+}
+.client-info span{
+  font-size: 20px;
+  font-weight: 400;
+}
