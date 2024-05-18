@@ -277,3 +277,99 @@ span {
   font-size: 24px;
   margin-left: 16px;
 }
+
+
+
+
+
+
+
+
+/* @media (max-width: 1120px){
+  .age{
+    position: static;
+  }
+}
+@media (max-width: 970px){
+  .gallery{
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 915px){
+  .director,
+  .seasons{
+    flex-direction: column;
+  }
+
+  .director span:nth-child(2),
+  .seasons span:nth-child(2){
+    margin-left: 0;
+  }
+}
+@media (max-width: 830px) {
+  header{
+    flex-direction: column;
+  }
+
+  .left-block{
+    margin-bottom: 30px;
+    width: 100%;
+    justify-content: flex-end;
+  }
+
+  .right-block{
+    justify-content: flex-end;
+  }
+
+  .director{
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 653px){
+  .film-popular{
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+@media (max-width: 578px){
+  .container{
+    margin: 0;
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  header{
+    margin-bottom: 50px;
+  }
+
+  .gallery{
+    justify-content: center;
+  }
+
+  .movie-type{
+    flex-direction: column;
+  }
+
+  .movie-type a,
+  .film-container{
+    border-right: none;
+    border-left: 3px solid white;
+    padding: 0;
+    margin-bottom: 20px;
+    padding-left: 20px;
+  }
+
+  .film-info{
+    flex-direction: column;
+  }
+  .film-info a:first-child,
+  .movie-type a:first-child{
+    padding-left: 20px;
+  }
+
+  .director span:nth-child(2),
+  .seasons span:nth-child(2){
+    margin-left: 0;
+  }
+} */
