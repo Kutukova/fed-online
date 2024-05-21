@@ -280,7 +280,6 @@ span {
 
 @media(max-width:1060px){
   header{
-      max-width: 1614px;
       position: relative;
       display: flex;
       flex-direction: column;
