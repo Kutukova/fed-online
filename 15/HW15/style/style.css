@@ -134,14 +134,17 @@ width: 75rem;
 }
 .search-items{
   display: flex;
+  flex-direction: row;
+  
 }
 .item{
   position: relative;
-  margin-right: 4.375rem;
+  /* margin-right: 4.375rem; */
+  margin-right: 2rem;
 }
-.item:last-child{
+/* .item:last-child{
   margin-right: 0;
-}
+} */
 .item input{
   width: 15.81rem;
   outline: none;
@@ -173,7 +176,8 @@ width: 75rem;
   border: none;
   outline: none;
   border-radius: 4px;
-  margin-left: 0.938rem;
+  /* margin-left: 0.938rem; */
+  margin-left: 2rem;
 }
 .search-button:hover{
   transform: scale(1.05);
@@ -181,7 +185,7 @@ width: 75rem;
 .view-more{
   display: flex;
   justify-content: center;
-  margin: 6rem 30rem 4rem 30rem;
+  margin: 6rem auto 4rem auto;
 }
 
 .view-more a{
