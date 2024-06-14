@@ -13,9 +13,9 @@ body{
   background-image: url(../img/Image.png);
   background-repeat: no-repeat;
   background-position: top 7.18rem right -0.5rem;
-  background-size: auto 85%; 
+  background-size: auto 75%; 
   /* height: 50.75rem; */
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .container{
@@ -121,6 +121,11 @@ main{
   top: 4px;
   right: 0;
 }
+.container-menu{
+  margin: 0 auto;
+  min-width: 83%;
+  /* width: 75rem; */
+}
 .search{
   background-color: #386e41;
   display: flex;
@@ -140,7 +145,7 @@ width: 75rem;
 .item{
   position: relative;
   /* margin-right: 4.375rem; */
-  margin-right: 2rem;
+  margin-right: 3.5rem;
 }
 /* .item:last-child{
   margin-right: 0;
@@ -178,6 +183,7 @@ width: 75rem;
   border-radius: 4px;
   /* margin-left: 0.938rem; */
   margin-left: 2rem;
+  
 }
 .search-button:hover{
   transform: scale(1.05);
