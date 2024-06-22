@@ -1,0 +1,47 @@
+:root{
+--mainBg:#333;
+--mainColor:white;
+--base-font-size:16px;
+--ButtonBg:blue;
+--MARGINAUTO:auto;
+
+/* Bad examples
+--block@value:
+--padding&value:
+--title color:; */
+
+--main-font-family:'Inter', sans-serif;
+--secondary-font-family:'Roboto Mono', monospace;
+--secondary-title:blue;
+}
+html, body{
+  /* font-family: 'Inter/, sans-serif;
+  font-family: 'Roboto Mono', monospace; */
+  background-color: var(--mainBg);
+  color: var(--mainColor);
+  font-family: var(--main-font-family);
+  font-size: var(--base-font-size);
+}
+p{
+  font-size: 2rem;
+
+}
+h3{
+  color:var(--secondary-title);
+  font-family: var(--secondary-font-family);
+  --secondary-title:red;
+
+}
+@media (max-width:1200px){
+  :root{
+    --mainBg:rgb(25, 234, 210);
+    --mainColor:rgb(13, 1, 1);
+    --base-font-size:10px;
+    --main-font-family:'Roboto Mono', monospace;
+    --secondary-font-family:'Inter', sans-serif;
+    }
+    h3{
+      --secondary-title:rgb(225, 57, 160);
+      font-size: 3rem;
+    }
+}
